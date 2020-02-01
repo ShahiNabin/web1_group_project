@@ -87,26 +87,6 @@ a{
   background-color: inherit;
   opacity: 65%;
 }
-.box{
-}
-.box input[type="text"]{
-  background: white;
-  display: block;
-  padding: 1px;
-  margin: 0px 10px;
-  text-align: center;
-  border:1px solid white;
-  width: 50px;
-  border-radius: 25px;
-  transition: 0.25s;
-}
-
-.box input[type="text"]:focus{
-	width: 100px;
-	border-color: #2ecc71;
-	color: white;
-	border-radius: 25px;
-}
 .right{
   float: right;
   margin-right: 10px;
@@ -169,7 +149,7 @@ li a:hover:not(.active) {
   right: -100px;
   width: 800px;
   height: 150px;
-  font-size: 20px;
+  font-size: 18px;
   color: white;
   text-shadow: 2px 2px black;
   text-align: center;
