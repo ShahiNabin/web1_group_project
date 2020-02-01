@@ -3,7 +3,7 @@ body{
 	background-color: lightblue;
 	padding: 0px 0px;
   max-width: 1000px;
-  margin: auto;
+  margin: 0 auto;
 
 }
 h1{
@@ -28,7 +28,7 @@ a{
   width: 100%;
   display: block;
   max-width: 1000px;
-  margin: 0 auto;
+  margin: auto;
   z-index: 1;
   border-radius: 15px;
 }
@@ -41,7 +41,6 @@ a{
 		width: 100%;
 		font-size: 25px;
 		font-weight: bold;
-    margin-top: 0px;
     position: center;
 }
 .link{

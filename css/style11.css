@@ -1,0 +1,49 @@
+      <li><div class="dropdown">
+          <button class="dropbtn">About </button>
+          <div class="dropdown-content">
+            <a href="#">About Us</a>
+            <a href="#">Contact Us</a>
+            <a href="https://visitnepal2020.com/">Visit Nepal</a>
+          </div>
+        </div> <li>
+
+
+/*Navigation part dropdown menu*/
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 100px;
+  background: none;
+  color: white;
+}
+
+.dropdown-content a {
+  float: none;
+  color: white;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+.dropbtn{
+background: none;
+display: block;
+margin: -3px 10px 15px 0px;
+text-align: center;
+color: white;
+border-radius: 20px;
+font-family: inherit;
+cursor: pointer;
+font-size: 16px;
+border: solid 1px white;
+padding: 3px;
+}
